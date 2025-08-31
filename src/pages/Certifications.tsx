@@ -5,7 +5,7 @@ export default function Certifications() {
       title: 'N.J. Licensed Tree Care Operator',
       subtitle: 'License #NJTC768775',
       description: 'State of New Jersey licensed Tree Care Operator, meeting all legal and safety requirements.',
-      img: '/images/nj-licensed-tree-care-operator.svg',
+      img: '/RyanBanksyArborist/images/nj-licensed-tree-care-operator.svg',
       url: 'https://www.njbte.org/licensing/licencing.html', // Official NJ Board licensing details :contentReference[oaicite:10]{index=10}
     },
     {
@@ -13,7 +13,7 @@ export default function Certifications() {
       subtitle: 'Tree Service',
       description:
         'Since 1995, ArborMaster has been the leader in innovative safety, skill, and productivity solutions for tree care and related industries.',
-      img: '/images/ArborMaster.svg',
+      img: '/RyanBanksyArborist/images/ArborMaster.svg',
       url: 'https://www.arbormaster.com/', // Official ArborMaster site :contentReference[oaicite:11]{index=11}
     },
     {
@@ -21,7 +21,7 @@ export default function Certifications() {
       subtitle: 'Tree Safety',
       description:
         'Safety First. Ryan Bansky Expert Tree Services is certified in First-Aid and CPR to protect both our employees and our clients.',
-      img: '/images/cprLogo.svg',
+      img: '/RyanBanksyArborist/images/cprLogo.svg',
       url: 'https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-certification', // Red Cross example placeholder
     },
     {
@@ -29,7 +29,7 @@ export default function Certifications() {
       subtitle: 'ISA Member',
       description:
         'Ryan Bansky is a certified Arborist, a member of the NJ ISA chapter, and a member of the Penn-Del ISA chapter.',
-      img: '/images/ISA-Certified-Arborist.svg',
+      img: '/RyanBanksyArborist/images/ISA-Certified-Arborist.svg',
       url: 'https://www.isa-arbor.com/Credentials/Types-of-Credentials/ISA-Certified-Arborist', // ISA certified arborist info :contentReference[oaicite:12]{index=12}
     },
   ]

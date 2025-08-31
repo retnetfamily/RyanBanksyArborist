@@ -57,7 +57,6 @@ const categories: Category[] = [
       { name: "Steve Hoxworth", phone: "(609) 226-6010" },
     ]
   },
-  // ✨ continue filling in the rest of categories (Construction, Handy Man, Electricians, Plumbers, etc.)
 ]
 
 export default function Contractors() {

@@ -3,10 +3,10 @@
 export default function CivicAffiliations() {
   // Example: replace with real filenames + real URLs
   const affiliations = [
-    { src: '/images/Marlton-Business-Association.svg', url: 'https://www.marltonbusiness.com/', name: 'Marlton Business Association' },
-    { src: '/images/covenant-house-logo.svg', url: 'https://covenanthousenj.org/', name: 'Covenant House' },
-    { src: '/images/FirstChristianAssembly.svg', url: 'https://www.fcaphila.org/', name: 'First Christian Assembly' },
-    { src: '/images/Moorestown-Business-Association.svg', url: 'https://moorestownbusiness.com/', name: 'Moorestown Business Association' },
+    { src: '/RyanBanksyArborist/images/Marlton-Business-Association.svg', url: 'https://www.marltonbusiness.com/', name: 'Marlton Business Association' },
+    { src: '/RyanBanksyArborist/images/covenant-house-logo.svg', url: 'https://covenanthousenj.org/', name: 'Covenant House' },
+    { src: '/RyanBanksyArborist/images/FirstChristianAssembly.svg', url: 'https://www.fcaphila.org/', name: 'First Christian Assembly' },
+    { src: '/RyanBanksyArborist/images/Moorestown-Business-Association.svg', url: 'https://moorestownbusiness.com/', name: 'Moorestown Business Association' },
   ]
 
   return (

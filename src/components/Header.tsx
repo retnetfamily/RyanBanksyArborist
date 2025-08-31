@@ -3,8 +3,8 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 const links = [
-  
-  { to: '/RyanBanksyArborist/home-old', label: 'Home Alt' },
+  { to: '/RyanBanksyArborist/', label: 'Home' },
+   { to: '/RyanBanksyArborist/home-old', label: 'Home Alt' },
   { to: '/RyanBanksyArborist/services', label: 'Services' },
   { to: '/RyanBanksyArborist/about', label: 'About Us' },
   { to: '/RyanBanksyArborist/why-ryan-banksy', label: 'Why Ryan Banksy?' },

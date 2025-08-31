@@ -28,21 +28,21 @@ export default function App() {
         <div className="flex-1 ">
           <Routes >
 
-
             <Route path="/" element={<HomeV2 />} />
-            <Route path="/home-old" element={<Home />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/why-ryan-banksy" element={<WhyRyanBanksy />} />
-            <Route path="/insurance" element={<Insurance />} />
-            <Route path="/safety" element={<Safety />} />
-            <Route path="/certifications" element={<Certifications />} />
-            <Route path="/civic-affiliations" element={<CivicAffiliations />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/contractors" element={<Contractors />} />
-            <Route path="/coupon" element={<Coupon />} />
+            <Route path="/RyanBanksyArborist/" element={<HomeV2 />} />
+            <Route path="/RyanBanksyArborist/home-old" element={<Home />} />
+            <Route path="/RyanBanksyArborist/services" element={<Services />} />
+            <Route path="/RyanBanksyArborist/about" element={<AboutUs />} />
+            <Route path="/RyanBanksyArborist/about-us" element={<AboutUs />} />
+            <Route path="/RyanBanksyArborist/why-ryan-banksy" element={<WhyRyanBanksy />} />
+            <Route path="/RyanBanksyArborist/insurance" element={<Insurance />} />
+            <Route path="/RyanBanksyArborist/safety" element={<Safety />} />
+            <Route path="/RyanBanksyArborist/certifications" element={<Certifications />} />
+            <Route path="/RyanBanksyArborist/civic-affiliations" element={<CivicAffiliations />} />
+            <Route path="/RyanBanksyArborist/contact" element={<Contact />} />
+            <Route path="/RyanBanksyArborist/testimonials" element={<Testimonials />} />
+            <Route path="/RyanBanksyArborist/contractors" element={<Contractors />} />
+            <Route path="/RyanBanksyArborist/coupon" element={<Coupon />} />
 
           </Routes>
         </div>

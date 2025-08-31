@@ -45,7 +45,7 @@ export default function Insurance() {
         {/* Right: Image */}
         <div className="relative">
           <img
-            src="/images/tree_prunning.jpg"
+            src="/RyanBanksyArborist/images/tree_prunning.jpg"
             alt="Tree pruning work"
             className="w-full h-auto rounded-2xl object-cover shadow-soft"
             loading="lazy"

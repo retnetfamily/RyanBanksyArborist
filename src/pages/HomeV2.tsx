@@ -36,8 +36,8 @@ export default function HomeV2() {
 
             {/* CTA row */}
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link to="/services" className={`${base} bg-brand text-white hover:bg-brand-dark`}>View Services</Link>
-              <Link to="/contact" className={`${base} bg-white text-neutral.gray border border-gray-200 hover:bg-neutral.light hover:border-gray-300`}>Contact Us</Link>
+              <Link to="/RyanBanksyArborist/services" className={`${base} bg-brand text-white hover:bg-brand-dark`}>View Services</Link>
+              <Link to="/RyanBanksyArborist/contact" className={`${base} bg-white text-neutral.gray border border-gray-200 hover:bg-neutral.light hover:border-gray-300`}>Contact Us</Link>
               <GoogleReviewButton />
               <FacebookButton />
             </div>
@@ -49,7 +49,7 @@ export default function HomeV2() {
           {/* Hero image */}
           <div className="relative">
             <img
-              src="/images/why_pic.jpg"
+              src="/RyanBanksyArborist/images/why_pic.jpg"
               alt="Our crew performing safe, professional tree work"
               className="w-full h-auto rounded-2xl object-cover shadow-soft"
               loading="lazy"
@@ -93,7 +93,7 @@ export default function HomeV2() {
               <h2 className="text-2xl font-semibold text-neutral.dark">Professional Tree Care</h2>
               <p className="text-neutral.gray mt-1">Removal • Pruning • Stump Grinding • Plant Health Care • Cabling</p>
             </div>
-            <Link to="/services" className={`${base} bg-brand text-white hover:bg-brand-dark`}>
+            <Link to="/RyanBanksyArborist/services" className={`${base} bg-brand text-white hover:bg-brand-dark`}>
               See Services
             </Link>
           </div>
@@ -117,7 +117,7 @@ export default function HomeV2() {
           </blockquote>
         </div>
         <div className="mt-6">
-          <Link to="/testimonials" className={`${base} bg-white text-neutral.dark border border-gray-200 hover:bg-neutral.light`}>
+          <Link to="/RyanBanksyArborist/testimonials" className={`${base} bg-white text-neutral.dark border border-gray-200 hover:bg-neutral.light`}>
             Read More Testimonials
           </Link>
         </div>

@@ -29,7 +29,7 @@ export default function Home() {
             <div className="mt-6 flex flex-wrap gap-3">
               {/* Primary (matches Button primary) */}
               <Link
-                to="/services"
+                to="/RyanBanksyArborist/services"
                 className={`${baseHover} bg-brand text-white hover:bg-brand-dark`}
               >
                 View Services
@@ -37,7 +37,7 @@ export default function Home() {
 
               {/* Subtle (matches Button subtle) — now with visible hover */}
               <Link
-                to="/contact"
+                to="/RyanBanksyArborist/contact"
                 className={`${baseHover} bg-white text-neutral.gray border border-gray-200 hover:bg-neutral.light hover:border-gray-300`}
               >
                 Contact Us
@@ -51,14 +51,14 @@ export default function Home() {
               <PaymentBadges/>
 
               <Link
-                to="/contractors"
+                to="/RyanBanksyArborist/contractors"
                 className={`${baseHover} bg-brand text-white hover:bg-brand-dark`}
               >
                 Recommended Contractors
               </Link>
 
               <Link
-                to="/coupon"
+                to="/RyanBanksyArborist/coupon"
                 className={`${baseHover} bg-brand text-white hover:bg-brand-dark`}
               >
                 Get SPECIAL COUPON OFFERS!
@@ -66,7 +66,7 @@ export default function Home() {
 
               
               <Link
-                to="/testimonials"
+                to="/RyanBanksyArborist/testimonials"
                 className={`${baseHover} bg-brand text-white hover:bg-brand-dark`}
               >
                 Testimonials

@@ -19,7 +19,7 @@ export default function Services() {
   ]
 
   const images = useMemo(
-    () => Array.from({ length: 7 }, (_, i) => `/images/${i + 1}.jpg`),
+    () => Array.from({ length: 7 }, (_, i) => `/RyanBanksyArborist/images/${i + 1}.jpg`),
     []
   )
 
