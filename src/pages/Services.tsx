@@ -199,11 +199,13 @@ export default function Services() {
             onClick={(e) => e.stopPropagation()}
           >
             {/* Image container with nav + dots */}
-            <div className="relative flex items-center justify-center max-h-[80vh]">
+            <div className="relative flex items-center justify-center max-h-[80vh] max-w-[95vw]">
+
               <img
                 src={images[index]}
                 alt="Full size"
-                className="max-h-[80vh] max-w-[95vw] object-contain transition-opacity duration-500"
+                className="max-h-[80vh] max-w-[95vw] w-auto h-auto object-contain transition-opacity duration-500"
+                loading="lazy"
               />
 
               {/* Prev/Next buttons */}
