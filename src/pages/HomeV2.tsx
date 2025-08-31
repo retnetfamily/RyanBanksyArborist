@@ -1,6 +1,5 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
-import Button from '../components/Button'
 import GoogleReviewButton from '../components/GoogleReviewButton'
 import FacebookButton from '../components/FacebookButton'
 import PaymentBadges from '../components/PaymentBadges'

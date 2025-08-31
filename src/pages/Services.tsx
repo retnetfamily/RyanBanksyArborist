@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState, useEffect, useCallback } from 'react'
+import { useMemo, useRef, useState, useEffect, useCallback } from 'react'
 import Bullet from '../components/Bullet'
 
 export default function Services() {
@@ -19,7 +19,7 @@ export default function Services() {
   ]
 
   const images = useMemo(
-    () => Array.from({ length: 7 }, (_, i) => `https://banskytrees.com/images/${i + 1}.jpg`),
+    () => Array.from({ length: 7 }, (_, i) => `/images/${i + 1}.jpg`),
     []
   )
 

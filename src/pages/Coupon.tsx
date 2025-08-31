@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaPrint } from 'react-icons/fa'
 
 export default function Coupon() {

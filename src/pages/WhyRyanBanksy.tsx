@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function WhyRyanBanksy() {
   return (
@@ -6,7 +5,7 @@ export default function WhyRyanBanksy() {
       {/* Left side image */}
       <div className="relative">
         <img
-          src="https://banskytrees.com/images/why_pic.jpg"
+          src="/images/why_pic.jpg"
           alt="Why choose Ryan Bansky Tree Service"
           className="w-full h-auto rounded-2xl object-cover shadow-soft"
         />

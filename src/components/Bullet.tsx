@@ -1,4 +1,3 @@
-import React from 'react'
 import LeafIcon from '../assets/bullet_leaf.svg?react'  // Vite supports ?react import for SVGs
 
 export default function Bullet({ children }: { children: React.ReactNode }) {

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export default function CivicAffiliations() {
   // Example: replace with real filenames + real URLs
