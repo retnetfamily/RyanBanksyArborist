@@ -4,15 +4,15 @@ import { Link, NavLink } from 'react-router-dom'
 
 const links = [
   
-   { to: '/home-old', label: 'Home Alt' },
-  { to: '/services', label: 'Services' },
-  { to: '/about', label: 'About Us' },
-  { to: '/why-ryan-banksy', label: 'Why Ryan Banksy?' },
-  { to: '/insurance', label: 'Insurance' },
-  { to: '/safety', label: 'Safety' },
-  { to: '/certifications', label: 'Certifications' },
-  { to: '/civic-affiliations', label: 'Civic Affiliations' },
-  { to: '/contact', label: 'Contact' },
+  { to: '/RyanBanksyArborist/home-old', label: 'Home Alt' },
+  { to: '/RyanBanksyArborist/services', label: 'Services' },
+  { to: '/RyanBanksyArborist/about', label: 'About Us' },
+  { to: '/RyanBanksyArborist/why-ryan-banksy', label: 'Why Ryan Banksy?' },
+  { to: '/RyanBanksyArborist/insurance', label: 'Insurance' },
+  { to: '/RyanBanksyArborist/safety', label: 'Safety' },
+  { to: '/RyanBanksyArborist/certifications', label: 'Certifications' },
+  { to: '/RyanBanksyArborist/civic-affiliations', label: 'Civic Affiliations' },
+  { to: '/RyanBanksyArborist/contact', label: 'Contact' },
 ]
 
 export default function Header() {
