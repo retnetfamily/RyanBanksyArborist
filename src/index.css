@@ -1,0 +1,44 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+/* Cloud drift keyframes (left → right) */
+@keyframes cloud-drift {
+  0% { transform: translateX(-15%); }
+  100% { transform: translateX(115%); }
+}
+
+/* Tree sway keyframes */
+@keyframes tree-sway {
+  0% { transform: rotate(-1.2deg); }
+  50% { transform: rotate(1.2deg); }
+  100% { transform: rotate(-1.2deg); }
+}
+
+/* Apply to our SVG groups */
+.cloud { transform-origin: center; }
+.cloud--slow { animation: cloud-drift 65s linear infinite; }
+.cloud--med  { animation: cloud-drift 48s linear infinite; }
+.cloud--fast { animation: cloud-drift 32s linear infinite; }
+
+/* Stagger slight start offsets so clouds don't sync */
+.cloud--med { animation-delay: -8s; }
+.cloud--fast { animation-delay: -16s; }
+
+/* Trees gently sway from the “ground” */
+.tree { transform-origin: center bottom; animation: tree-sway 5.5s ease-in-out infinite; }
+.tree--1 { animation-duration: 6.2s; }
+.tree--2 { animation-duration: 7s; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .cloud, .tree { animation: none !important; }
+}
