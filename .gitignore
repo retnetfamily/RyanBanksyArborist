@@ -1,2 +1,5 @@
-
-LICENSE.zip
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
