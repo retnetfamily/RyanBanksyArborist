@@ -46,18 +46,18 @@ export default function HomeV2() {
             <PaymentBadges />
 
             {/* Consumer Checkbook logo link */}
-<a
-  href="https://www.checkbook.org/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block mt-4"
->
-  <img
-    src="/RyanBanksyArborist/images/ConsumerCheckbook.svg"
-    alt="Consumer Checkbook"
-    className="h-10 w-auto"
-  />
-</a>
+              <a
+                href="https://www.checkbook.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4"
+              >
+                <img
+                  src="/RyanBanksyArborist/images/ConsumerCheckbook.svg"
+                  alt="Consumer Checkbook"
+                  className="h-10 w-auto"
+                />
+              </a>
 
           </div>
 
