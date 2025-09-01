@@ -7,7 +7,7 @@ export default function AboutUs() {
         {/* Left: Image */}
         <div className="relative">
           <img
-            src="/RyanBanksyArborist/images/prunning.jpg"
+            src="/RyanBanksyArborist/images/prunning.webp"
             alt="Pruning work in progress by our crew"
             className="w-full h-auto rounded-2xl object-cover shadow-soft"
             loading="lazy"

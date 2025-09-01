@@ -27,7 +27,7 @@ export default function Safety() {
         {/* Right: Image */}
         <div className="relative">
           <img
-            src="/RyanBanksyArborist/images/stump_removal.jpg"
+            src="/RyanBanksyArborist/images/stump_removal.webp"
             alt="Tree stump removal work"
             className="w-full h-auto rounded-2xl object-cover shadow-soft"
             loading="lazy"

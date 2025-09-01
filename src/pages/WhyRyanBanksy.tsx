@@ -5,9 +5,10 @@ export default function WhyRyanBanksy() {
       {/* Left side image */}
       <div className="relative">
         <img
-          src="/RyanBanksyArborist/images/why_pic.jpg"
+          src="/RyanBanksyArborist/images/why_pic.webp"
           alt="Why choose Ryan Bansky Tree Service"
           className="w-full h-auto rounded-2xl object-cover shadow-soft"
+          loading="lazy"
         />
       </div>
 

@@ -88,7 +88,7 @@ export default function HomeV2() {
             <div className="relative order-first md:order-none">
               <div className="absolute -inset-4 -z-10 rounded-3xl opacity-60 blur-2xl bg-gradient-to-tr from-white to-transparent" aria-hidden="true" />
               <img
-                src="/RyanBanksyArborist/images/why_pic.jpg"
+                src="/RyanBanksyArborist/images/why_pic.webp"
                 alt="Our crew performing safe, professional tree work"
                 className="w-full h-auto rounded-2xl object-cover shadow-soft"
                 loading="lazy"

@@ -18,8 +18,15 @@ export default function Services() {
     'Consultations',
   ]
 
+  /**
+   * Array of gallery images. Use pre-compressed WebP versions to reduce bandwidth and
+   * improve page load time. See /public/images for the corresponding .webp files.
+   * If you need to swap out or add photos in the future, simply drop your new
+   * .jpg or .png into `public/images` and run the provided conversion script to
+   * generate the matching .webp; then update the number in this array length.
+   */
   const images = useMemo(
-    () => Array.from({ length: 7 }, (_, i) => `/RyanBanksyArborist/images/${i + 1}.jpg`),
+    () => Array.from({ length: 7 }, (_, i) => `/RyanBanksyArborist/images/${i + 1}.webp`),
     []
   )
 
@@ -120,7 +127,9 @@ export default function Services() {
           <img
             key={`prev-${prevIndex}`}
             src={images[prevIndex]}
-            alt=""
+            /* Provide a helpful alt text for screen readers. This intentionally
+             * mirrors the alt on the current slide below. */
+            alt={`Tree service gallery image ${prevIndex + 1}`}
             className={[
               'absolute inset-0 h-full w-full object-cover',
               'opacity-0 translate-x-0',
@@ -203,7 +212,7 @@ export default function Services() {
 
               <img
                 src={images[index]}
-                alt="Full size"
+                alt={`Tree service gallery image ${index + 1}`}
                 className="max-h-[80vh] max-w-[95vw] w-auto h-auto object-contain transition-opacity duration-500"
                 loading="lazy"
               />
